@@ -59,7 +59,8 @@ class KreativanTweets extends WireData implements Module {
 
     /**
      *  Render Tweeter Feed
-     *
+     *	
+	 *	@param array $params - Main params array
      *  @param string profile
      *  @param integer limit
      *  @param bool debug
